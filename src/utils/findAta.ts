@@ -10,7 +10,7 @@ import { connection } from "../constants";
 // import { publicKey } from "@coral-xyz/anchor/dist/cjs/utils";
 
 export const findAta = async (tokenAddress: PublicKey, wallet: PublicKey) => {
-  const ata = await getAssociatedTokenAddress(tokenAddress, wallet, true);
+  const ata = await getAssociatedTokenAddress(tokenAddress, wallet, true)
   // console.log(wallet.toBase58());
 
   try {
