@@ -17,10 +17,10 @@ export const getPresaleInfo = async (wallet: AnchorWallet) => {
       const decimals = 9; // Example: Token with 9 decimals
 
 // Convert to float using string manipulation
-const floatValue = parseFloat(user?.buyTokenAmount.toNumber());
+// const floatValue = parseFloat(user?.buyTokenAmount.toNumber());
 
-console.log("Floating Value:", floatValue);
-    console.log({user});
+// console.log("Floating Value:", floatValue);
+    // console.log({user});
   } catch (error: any | unknown) {
     console.error("could not log data: ", error.message);
   }
